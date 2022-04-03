@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".MainActivity10">
+
+    <Button
+        android:id="@+id/kocGeriButonu"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_bg"
+        android:text="Geri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <ImageView
+        android:id="@+id/kocArkaplan1"
+        android:layout_width="268dp"
+        android:layout_height="265dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/kocÖzellikleri"
+        android:layout_width="228dp"
+        android:layout_height="35dp"
+        android:text="Koç Burcu Özellikleri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <ImageView
+        android:id="@+id/kocÖzellikleriSembol"
+        android:layout_width="193dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143"
+        app:srcCompat="@drawable/aries" />
+
+    <TextView
+        android:id="@+id/kocTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(21 Mart – 19 Nisan)"
+        android:textColor="@color/textviewcolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <ImageView
+        android:id="@+id/kocArkaplan2"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/kocGezegen"
+        android:layout_width="195dp"
+        android:layout_height="105dp"
+        android:text="★Gezegeni:Mars
+        ★Element: Ateş
+        ★Uğurlu Sayıları:1       "
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/kocArkaplan3"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/kocRenk"
+        android:layout_width="178dp"
+        android:layout_height="111dp"
+        android:text="★Renk:Kırmızı
+    ★Gün:Salı
+    ★Uğurlu Taşı:Yakut"
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15" />
+
+    <ImageView
+        android:id="@+id/kocArkaplan4"
+        android:layout_width="561dp"
+        android:layout_height="782dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/kocKadinİcerik"
+        android:layout_width="502dp"
+        android:layout_height="300dp"
+        android:text="
+        Koç burcu kadını hareketli, konuşkan ve girişimci yapısıyla dikkat çeker. Oldukça da esprilidir. Alımlı,atletik yapılı ve narindir. Eleştirmeyi ve hoşlanmadığı şeyleri mutlaka dile getirir. Toplum içerisinde cazibe ve farklılığıyla dikkat çeker.Koç kadını iş hayatında oldukça hırslı ve idealisttir. Aklına koyduğunu mutlaka gerçekleştirmek ister ve çizdiği yolda hiç şaşmadan ilerler.Zamanı kullanmayı iyi bilir ve çalışkandır. İçten içe biraz tedirgin ve huzursuzdur.Dostlarına ve sevdiklerine çok önem verir ve fazlasıyla fedakardır.Duygusal yapısı oldukça hassas olduğu için olumsuz tenkitler onu fazlasıyla kırabilir."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <TextView
+        android:id="@+id/kocKadin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Koç Burcu Kadını Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:id="@+id/kocErkek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Koç Burcu Erkeği Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.374"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <TextView
+        android:id="@+id/kocErkekİcerik"
+        android:layout_width="510dp"
+        android:layout_height="338dp"
+        android:text=" Koç burcu erkeği kendine güvenen, hareketli ve enerjik yapısıyla toplum içinde fark edilir. Otoriterdir ve otorite kurmaktan keyif alır. Dik başlıdır ve hata yaptığında bunu kabul etmek istemez ve bencil davranışlar sergiler. Koç burcu erkeği özgürlüğüne fazlasıyla düşkündür. Dostları ve arkadaşları için yapmayacağı şey yoktur. İnsanlara yardım etmeyi ve onların sorunlarını paylaşmayı sever. Cömerttir ve maddi anlamda da özgür olmayı sever. Kendi işini kurmak ve yürütmek onlar için çok daha caziptir.Başkalarından emir almaktan hoşlanmaz.Koç burcu erkeği incindiği zaman oldukça kırıcı olur ve sözünü sakınmaz. Tenkitçidir, sert bir dille eleştirebilir."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

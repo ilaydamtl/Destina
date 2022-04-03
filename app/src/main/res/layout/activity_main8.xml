@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".MainActivity8">
+
+
+    <ImageView
+        android:id="@+id/burclarHakkindaArkaplan"
+        android:layout_width="558dp"
+        android:layout_height="838dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <ImageView
+        android:id="@+id/burclarHakkindaBaslikArkaplan"
+        android:layout_width="276dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <Button
+        android:id="@+id/burclarHakkindageri"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_bg"
+        android:text="Geri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="244dp"
+        android:layout_height="46dp"
+        android:text="★ Burçlar Hakkında ★"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="543dp"
+        android:layout_height="158dp"
+        android:text="   ★Astrolojide burçlar, ekliptiğin iki yanında, aşağı yukarı 10 derece genişliğinde, içinde Güneş'in ve gezegenlerin döndüğü zodyak kuşağı ile belirlenir. Ekliptik, dünyadan bakan birinin gözüktüğü şekliyle Yeryüzünün Güneş çevresinde bir yılda çizdiği görünür yörüngesinden başka bir şey değildir; diğer bir deyişle yer-merkezli sistemin bir verisidir."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="545dp"
+        android:layout_height="208dp"
+        android:text="   ★Burçlar 4 elemente ayrılırlar: Ateş, Hava, Su ve Toprak.  Her element de 3 gruba ayrılırlar. Bunlar, Öncü, Sabit ve Değişken'dir. Batı astrolojisinin takımyıldızlarıyla bir alakası yoktur. Yukarıda anlatıldığı gibi ilkbahar ekinoksunun başlangıcı olan 0 derece Koç esas alınarak &quot;Burçlar kuşağı&quot; oluşturulur. 0 derece Koç esas alındığında 360 derecelik dairenin matematiksel olarak 30 dereceye bölünmesinden 12 burç elde edilir."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="547dp"
+        android:layout_height="420dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713"
+        app:srcCompat="@drawable/burcelementleri" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

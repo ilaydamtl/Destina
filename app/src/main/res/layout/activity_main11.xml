@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".MainActivity11">
+    <Button
+        android:id="@+id/bogaGeriButonu"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_bg"
+        android:text="Geri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <ImageView
+        android:id="@+id/bogaArkaplan1"
+        android:layout_width="268dp"
+        android:layout_height="265dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/bogaÖzellikleri"
+        android:layout_width="242dp"
+        android:layout_height="31dp"
+        android:text="Boğa Burcu Özellikleri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/bogaTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(20 Nisan – 20 Mayıs)"
+        android:textColor="@color/textviewcolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <ImageView
+        android:id="@+id/bogaArkaplan2"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/bogaGezegen"
+        android:layout_width="195dp"
+        android:layout_height="105dp"
+        android:text="★Gezegeni:Venüs
+        ★Element:Toprak
+        ★Uğurlu Sayıları:6, 4       "
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/bogaArkaplan3"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/bogaRenk"
+        android:layout_width="196dp"
+        android:layout_height="111dp"
+        android:text="★Renk:mavi
+    ★Gün:Cuma
+    ★Uğurlu Taşı:Zümrüt"
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/bogaArkaplan4"
+        android:layout_width="561dp"
+        android:layout_height="782dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/bogaKadinİcerik"
+        android:layout_width="502dp"
+        android:layout_height="300dp"
+        android:text="
+       Boğa burcu kadın sessiz, sakin ve mağrur duruşuyla dikkat çeker. Gerçekçi ve otoriter bir tavrı vardır. Girdiği ortamlarda hal ve tavırlarıyla dikkati çeker. Hırslıdır ve düşlediği bir şeye ulaşmak için elinden geleni yapar. Alışkanlıklarına bağlıdır ve sadakatsizlikten hoşlanmaz.Boğa burcu kadını duygusal açıdan oldukça hassas ve kırılgandır. Birine değer verdiği zaman onun için daima elinden geleni yapar.Sadakatsizlikten hoşlanmaz. Dışarıdan soğuk görünmekle beraber, yumuşak kalplidir. Çalışkandır ve bir işe başladığı zaman sonuna kadar o işi götürür. Boğa burcu kadını maddi rahatlığa fazlasıyla önem verir."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <TextView
+        android:id="@+id/bogaKadin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Boğa Burcu Kadını Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/bogaErkek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Boğa Burcu Erkeği Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.374"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <TextView
+        android:id="@+id/bogaErkekİcerik"
+        android:layout_width="510dp"
+        android:layout_height="338dp"
+        android:text="
+        Boğa burcu erkeği inatçı, çalışkan, hareketli ve sakin yapısıyla dikkat çeker.Bu sakin görünüşünün altında oldukça hareketli bir insan vardır. Kızdığı zaman oldukça inatçı olur ve hiçbir şekilde düşündüklerinden ödün vermez.Boğa burcu erkeği evine bağlıdır ve uyumlu bir eştir. Aynı zamanda çocuklarıyla arasında sıcak bir bağ vardır ve iyi bir babadır.Bir o kadar da sert ve disiplinlidir. İşlerine fazlasıyla düşkündür. Başladığı bir işi sonuna kadar devam ettirir.Fiziksel anlamda yapılı ve sağlıklı bir görünüm içindedir,ancak boyun bölgesi en zayıf bölgesidir. Sağlığına dikkat etmesi gerekir. Çünkü göründüğünden çok daha hassastır"
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <ImageView
+        android:id="@+id/bogaÖzellikleriSembol"
+        android:layout_width="227dp"
+        android:layout_height="173dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/taurus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

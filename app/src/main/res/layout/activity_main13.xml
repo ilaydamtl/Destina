@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".MainActivity13">
+
+    <Button
+        android:id="@+id/yengecGeriButonu"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_bg"
+        android:text="Geri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <ImageView
+        android:id="@+id/yengecArkaplan1"
+        android:layout_width="268dp"
+        android:layout_height="265dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/yengecÖzellikleri"
+        android:layout_width="263dp"
+        android:layout_height="36dp"
+        android:text="Yengeç Burcu Özellikleri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/yengecTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(22 Haziran – 22 Temmuz)"
+        android:textColor="@color/textviewcolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <ImageView
+        android:id="@+id/yengecArkaplan2"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/yengecGezegen"
+        android:layout_width="195dp"
+        android:layout_height="105dp"
+        android:text="★Gezegeni:Ay
+        ★Element:Su
+        ★Uğurlu Sayıları:3,7       "
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/yengecArkaplan3"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/yengecRenk"
+        android:layout_width="196dp"
+        android:layout_height="111dp"
+        android:text="★Renk:gümüş
+    ★Gün:Pazartesi
+    ★Uğurlu Taşı:İnci"
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/yengecArkaplan4"
+        android:layout_width="561dp"
+        android:layout_height="782dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/yengecKadinİcerik"
+        android:layout_width="492dp"
+        android:layout_height="325dp"
+        android:text="
+       Yengeç burcu kadını hoş bir mizaca sahiptir. Evcimen,sıcak kanlı, dürüst ve iyi niyetlidir. Romantik ve maceraya düşkün olduğunu da söylemek mümkün. Yengeç burcu kadını özellikle evine, ailesine, alışkanlıklarına ve geleneklerine fazlasıyla bağlıdır. Genel anlamda anaç bir portre çizer, ev ortamını ve evle ilgili her şeyi çok sever.İdeal anneler bu burçtan çıkar. Duygusal anlamda oldukça hassastır ve sezgileri kuvvetlidir. Etrafındaki kişilerin ona karşı niyetlerini kolayca fark edebilir. Yengeç burcu kadını çok kolay kırılıp incinebilir. Çevresindeki insanlarda daima iyi niyet ve şefkat arar.Yengeç burcu kadını cömerttir, fakat savurgan değildir."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <TextView
+        android:id="@+id/yengecKadin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Yengeç Burcu Kadını Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/yengecErkek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Yengeç Burcu Erkeği Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.374"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <TextView
+        android:id="@+id/yengecErkekİcerik"
+        android:layout_width="510dp"
+        android:layout_height="338dp"
+        android:text="
+        Yengeç burcu erkeği nazik, dürüst, ağır başlı ve mağrur yapısıyla dikkat çeker. Duygusal yapısı oldukça hassastır. Sevgi ve saygı onun için vazgeçilmez temel taşlarıdır. Çevresindeki insanlara değer verir ve onlara yardımcı olamaya çalışır. Onların zayıf taraflarından faydalanmaya çalışmak yerine onlara destek olmaya çalışır.Yengeç burcu erkeğinin keskin ve pratik bir zekası vardır. Analiz yeteneği fazlasıyla gelişmiştir.Olayları kolaylıkla çözümleyebilir.Suyla ilgili her şeyi çok sever.Alkolle arası iyidir. Ayrıca oldukça duygusal yapısı nedeniyle sevdiği zaman tam sever ve kolay kolay vazgeçmez."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <ImageView
+        android:id="@+id/yengecGörsel"
+        android:layout_width="228dp"
+        android:layout_height="173dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/cancer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

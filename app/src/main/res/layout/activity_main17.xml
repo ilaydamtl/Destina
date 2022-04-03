@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".MainActivity17">
+
+    <Button
+        android:id="@+id/akrepGeriButonu"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_bg"
+        android:text="Geri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <ImageView
+        android:id="@+id/akrepArkaplan1"
+        android:layout_width="268dp"
+        android:layout_height="265dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/akrepÖzellikleri"
+        android:layout_width="255dp"
+        android:layout_height="33dp"
+        android:text="Akrep Burcu Özellikleri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/akrepTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(23 Ekim – 21 Kasım)"
+        android:textColor="@color/textviewcolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <ImageView
+        android:id="@+id/akrepArkaplan2"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/akrepGezegen"
+        android:layout_width="195dp"
+        android:layout_height="105dp"
+        android:text="★Gezegeni:Mars
+        ★Element:Su
+        ★Uğurlu Sayıları:2, 4       "
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/akrepArkaplan3"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/akrepRenk"
+        android:layout_width="196dp"
+        android:layout_height="111dp"
+        android:text="★Renk:kırmızı
+    ★Gün:Çarşamba
+    ★Uğurlu Taşı:Topaz"
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/akrepArkaplan4"
+        android:layout_width="561dp"
+        android:layout_height="782dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/akrepKadinİcerik"
+        android:layout_width="508dp"
+        android:layout_height="346dp"
+        android:text="
+       Akrep burcu kadını cazibeli, azimli,hırslı,akıllı ve sezgileri kuvvetli yapısıyla dikkat çeker. Hoş bir mizacı vardır, alçak gönüllü ve yumuşak başlı görünmesine karşın bir o kadar da mağrur ve kibirlidir. Kıskançlık akrep burcu kadınının mizacında vardır. Kendisinden üstün olan ya da sahip olamadığı her şeyi kıskanabilir. Dostlukları onun için çok önemlidir. Daima çevresinde nüfuzlu dostları bulunur.Yalandan nefret eder. Yalan söylenildiğini hissettiği anda o ortamdan uzaklaşmayı tercih eder. Dürüsttür ve dürüstlüğe fazlasıyla önem verir.Gururlu akrep burcu kadını doğru bildiği konularda kesinlikle taviz vermez.Cesurdur ve tuttuğunu koparıncaya kadar çabalamaya devam eder. Başarısızlığı hiçbir şekilde kabul etmez."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487" />
+
+    <TextView
+        android:id="@+id/akrepKadin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Akrep Burcu Kadını Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/akrepErkek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Akrep Burcu Erkeği Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <TextView
+        android:id="@+id/akrepErkekİcerik"
+        android:layout_width="507dp"
+        android:layout_height="315dp"
+        android:text="
+        Akrep burcu erkeği arzulu, kararlı, duygusal ve duyarlı yapısıyla dikkat çeker. Neşeli ve hareketli gibi görünse de karamsar bir hali vardır. Hayatın zevklerine aşırı düşkündür. Özellikle yemeğe,alkollü içeceklere ve cinselliğe karşı zaafı vardır. Akrep burcu erkeği herkese ve her şeye karşı şüpheci tavırlar içindedir. Kimseye kolay kolay güvenmez. Maddiyata çok fazla önem verir. Çünkü maddi anlamda edinilen gücün güven verdiğini düşünür.Eleştirmeyi seven akrep burcu erkeği tenkit edilmekten hoşlanmaz. Açık sözlü ve güvenilirdir. Dostlarına çok önem verir.Fedakardır."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <ImageView
+        android:id="@+id/akrepİmg"
+        android:layout_width="215dp"
+        android:layout_height="174dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141"
+        app:srcCompat="@drawable/scorpio" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

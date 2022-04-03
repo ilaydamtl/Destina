@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".MainActivity18">
+
+    <Button
+        android:id="@+id/yayGeriButonu"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/btn_bg"
+        android:text="Geri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.012" />
+
+    <ImageView
+        android:id="@+id/yayArkaplan1"
+        android:layout_width="268dp"
+        android:layout_height="265dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/yayÖzellikleri"
+        android:layout_width="228dp"
+        android:layout_height="30dp"
+        android:text="Yay Burcu Özellikleri"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/yayTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(22 Kasım – 21 Aralık)"
+        android:textColor="@color/textviewcolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <ImageView
+        android:id="@+id/yayArkaplan2"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/yayGezegen"
+        android:layout_width="195dp"
+        android:layout_height="105dp"
+        android:text="★Gezegeni:Jüpiter
+        ★Element:Ateş
+        ★Uğurlu Sayıları:5, 7       "
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/yayArkaplan3"
+        android:layout_width="238dp"
+        android:layout_height="154dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.131"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/yayRenk"
+        android:layout_width="196dp"
+        android:layout_height="111dp"
+        android:text="★Renk:Mor
+    ★Gün:Perşembe
+    ★Uğurlu Taşı:Turkuaz"
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
+    <ImageView
+        android:id="@+id/yayArkaplan4"
+        android:layout_width="561dp"
+        android:layout_height="782dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82"
+        app:srcCompat="@drawable/btn_bg" />
+
+    <TextView
+        android:id="@+id/yayKadinİcerik"
+        android:layout_width="508dp"
+        android:layout_height="328dp"
+        android:text="
+       Yay burcu kadını kültürlü, alımlı, espritüel, duyarlı ve akıllı yönleriyle dikkat çeker. Hassas ve kırılgan bir yapısı vardır. Affedicidir. Zekidir ve kavrama yeteneği kuvvetlidir. Birden fazla konuya ilgi duyabilir ve hepsiyle ilgili bilgi sahibi olabilir. Yay burcu kadınının sıkılgan ve çabuk bıkan bir yapısı vardır. Huzursuzluktan hoşlanmaz ve huzursuzluk olan ortamlarda fazla bulunmaz. Çevresinde enerjik ve neşeli yapısıyla aranan bir dosttur.Dostlarına çok önem verir ve fedakardır.Yay burcu kadını eğlenceye ve gezmeye meraklıdır. Seyahat etmeyi, yeni yerler görmeyi ve yeni insanlarla tanışmayı sever. Maddi anlamda güçlü olmak ister. Para onun için araçtır.Cömert hatta biraz savurgandır."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <TextView
+        android:id="@+id/yayKadin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Yay Burcu Kadını Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/yayErkek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="★Yay Burcu Erkeği Genel Özellikleri:"
+        android:textColor="@color/textviewcolor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648" />
+
+    <TextView
+        android:id="@+id/yayErkekİcerik"
+        android:layout_width="507dp"
+        android:layout_height="315dp"
+        android:text="
+        Yay burcu erkeği entelektüel, duyarlı, meraklı, neşeli ve cana yakın yapısıyla dikkat çeker.İyi niyetli ve konuşkandır. Dostlarına düşkündür ve arkadaş canlısıdır. Hareketsizlik yay burcu erkeğini sıkar. O hep hareketli olmalı ve açık havada bulunmalıdır. Kapalı ortamlarda çok uzun süre kalmaktan hoşlanmaz.Yay burcu erkeği birçok konuda bilgi . Bu da onun meraklı bir yapısı olmasından kaynaklanır. Eleştirmeyi sever ve açık sözlüdür. Bazen bu açık sözlülük pot kırma sınırını da aşabilmektedir.Cömertliğiyle tanınan yay burcu erkeği harcamalarında savurganlık sınırını fazlasıyla aşabilir."
+        android:textColor="@color/textviewcolor"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <ImageView
+        android:id="@+id/yayİmg"
+        android:layout_width="213dp"
+        android:layout_height="166dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14"
+        app:srcCompat="@drawable/sagittarius" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

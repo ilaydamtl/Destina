@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "242749450956",
+    "project_id": "destina-17ccc",
+    "storage_bucket": "destina-17ccc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242749450956:android:eb2c9caf51469780ba7069",
+        "android_client_info": {
+          "package_name": "com.ilayda.destina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242749450956-tl7at9i88gubjt4k34qls64n55pt0m9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN9CD3Z8QduPz3ClTpRaBeNLCmPuvIGu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242749450956-tl7at9i88gubjt4k34qls64n55pt0m9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
